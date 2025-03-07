@@ -1,7 +1,7 @@
 
 import './style.css'
 import NavButtton from "./NavButton";
-import { Bell,  Settings } from 'lucide-react';
+import { Bell,  } from 'lucide-react';
 import ModeChange from './ModeChange';
 
 export default function NavBar(){
@@ -13,7 +13,7 @@ export default function NavBar(){
                 <div className="flex gap-2 justify-between items-center">
                   <NavButtton title="Home" path='/' />  
                   <NavButtton title="Skills" path='/skills'/>  
-                  <NavButtton title="Experince" path='/experince'/>  
+                  <NavButtton title="Experience" path='/experience'/>  
                   <NavButtton title="Projects" path='/projects'/>  
                   <NavButtton title="Blogs" path='/blogs'/>  
                     
