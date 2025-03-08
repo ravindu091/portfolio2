@@ -5,9 +5,9 @@ import NavBar from "../components/NavBar";
 
 export default function Home(){
     return(
-        <div className="dark:bg-[#032030] h-screen">
+        <div className="bg-[#fbfeff] dark:bg-[#032030] h-screen">
            <NavBar/>
-           <div className="flex flex-wrap justify-center gap-2">
+           <div className="flex flex-wrap justify-center gap-2 pt-3">
             <div>
                 <PicCard />
             </div>

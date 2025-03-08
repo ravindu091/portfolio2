@@ -1,8 +1,8 @@
 export default function AboutCard(){
     return (
-        <div className="m-4 py-3 px-5 bg-[#ecf3f4] border-slate-100 shadow rounded-xl w-lg font-[roboto]">
-            <h1 className="text-2xl fo">Bio</h1>
-            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magni blanditiis, praesentium reprehenderit atque doloremque laudantium maxime quisquam, veritatis delectus eaque ducimus accusantium dolore voluptate, quaerat facere adipisci aperiam debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, mollitia temporibus ullam possimus eaque quae eius nihil sit sapiente dicta maiores veniam in dolore reiciendis perspiciatis quaerat ipsa fugiat recusandae.</p>
+        <div className="m-4 py-3 px-5 flex flex-col gap-3 shadow-md rounded-xl w-lg font-[roboto]">
+            <h1 className="text-2xl fo">Hello, Mate</h1>
+            <p className=" text-slate-800">I’m Ravindu Dilupa Gunasekara, a dedicated web designer and developer who excels at crafting visually striking and high-performing web solutions. With a solid expertise in HTML, CSS, JavaScript, React, and modern web technologies, I specialize in creating intuitive user experiences and impactful designs that drive engagement and results.</p>
         </div>
     )
 }
