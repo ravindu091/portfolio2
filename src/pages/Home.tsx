@@ -1,16 +1,19 @@
+import AboutCard from "../components/Home/AboutCard";
 import PicCard from "../components/Home/PicCard";
 import NavBar from "../components/NavBar";
 
 
 export default function Home(){
     return(
-        <div>
+        <div className="dark:bg-[#032030] h-screen">
            <NavBar/>
-           <div>
+           <div className="flex flex-wrap justify-center gap-2">
             <div>
                 <PicCard />
             </div>
-            <div></div>
+            <div>
+                <AboutCard />
+            </div>
            </div>
         </div>
     )

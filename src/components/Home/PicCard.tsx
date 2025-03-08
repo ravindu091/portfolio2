@@ -1,6 +1,6 @@
 export default function PicCard(){
         return(
-            <div className="flex gap-3 m-4 p-3 border border-slate-100 shadow rounded-xl w-lg">
+            <div className="flex gap-3 m-4 p-3 border dark:bg-[#006da4] rounded-xl w-lg">
                 <div className="bg-slate-400 w-30 h-30 rounded-full">
 
                 </div>
