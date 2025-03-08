@@ -1,5 +1,6 @@
 import AboutCard from "../components/Home/AboutCard";
 import PicCard from "../components/Home/PicCard";
+import SkillCard from "../components/Home/SkillCard";
 import NavBar from "../components/NavBar";
 
 
@@ -10,6 +11,7 @@ export default function Home(){
            <div className="flex flex-wrap justify-center gap-2 pt-3">
             <div>
                 <PicCard />
+                <SkillCard/>
             </div>
             <div>
                 <AboutCard />

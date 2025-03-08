@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 
-export default function Skills(){
+export default function Contact(){
     return(
         <NavBar />
     )
